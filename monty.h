@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+
 #include <string.h>
 
 /* Structs and Lists */
@@ -21,7 +22,6 @@
  * Description: doubly linked list node structure
  * for stack, queues, LIFO, FIFO Holberton project
  */
-
 typedef struct stack_s
 {
 	int n;
@@ -37,7 +37,6 @@ typedef struct stack_s
  * Description: opcode and its function
  * for stack, queues, LIFO, FIFO Holberton project
  */
-
 typedef struct instruction_s
 {
 	char *opcode;
@@ -52,7 +51,6 @@ typedef struct instruction_s
  * Description: Single linked list of the struct instruction
  */
 typedef struct list_s
-
 {
 	int n;
 	char *inst;
